@@ -32,3 +32,11 @@ h5 {
 h6 {
     text-align: center;
 }
+.frame {
+    border: 15px solid #3e2b14;
+}
+
+.tableaubox {
+     padding-top: 15 px;
+     padding-bottom: 3 px;
+}
