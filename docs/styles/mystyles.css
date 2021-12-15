@@ -35,7 +35,10 @@ h6 {
 .frame {
     border: 15px solid #3e2b14;
 }
-
+.caption {
+    text-align: center;
+    font-style: italic;
+}
 .tableaubox {
      padding-top: 15 px;
      padding-bottom: 3 px;
