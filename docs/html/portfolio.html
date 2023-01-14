@@ -26,7 +26,8 @@
                     <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="../index.html">Home</a></li>
                     <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="resume.html">Resume</a></li>
                     <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="about.html">About</a></li>
-                    <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="portfolio.html">Portfolio</a></li>
+                    <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="portfolio.html">Portfolio</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -34,7 +35,8 @@
 
     <section class="page-section about-heading">
         <div class="product-item">
-            <h6>Jump to <a href="#classwork" class="link">Classwork</a> | <a href="#politics" class="link">Politics</a> |
+            <h6>Jump to <a href="#classwork" class="link">Classwork</a> | <a href="#politics" class="link">Politics</a>
+                |
                 <a href="#sports" class="link">Sports</a> | <a href="#travel" class="link">Travel</a>
             </h6>
         </div>
@@ -52,7 +54,13 @@
                         <ul>
                             <li>Assignment 1</li>
                             <ul>
-                                <li>Podcast Analysis: insert brief synopsis. <a href="#podcast" class="link>">See more</a></li>
+                                <li>Podcast Analysis: insert brief synopsis. <a onclick="on('assignment-1')"
+                                        class="link>">See
+                                        more</a></li>
+                                <li>Podcast Analysis: insert brief synopsis. <a onclick="on('assignment-2')"
+                                        class="link>">See
+                                        more</a></li>
+
                             </ul>
                         </ul>
                     </div>
@@ -62,6 +70,16 @@
         </div>
     </section>
 
+
+    <div id="overlay">
+        <dialog id="assignment-1">
+            <p>This is a paragraph</p>
+        </dialog>
+        <dialog id="assignment-2">
+            <p>This is paragraph 2</p>
+        </dialog>
+    </div>
+
     <footer class="footer text-faded text-center py-5">
         <div class="container">
             <h6>Contact Me:</h6>
@@ -70,6 +88,9 @@
             <p class="m-0 small">Copyright &copy;2021</p>
         </div>
     </footer>
+
+    <script src="../js/scripts.js"></script>
+
 </body>
 
 </html>
