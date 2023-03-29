@@ -53,7 +53,9 @@
                         <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0 frame"
                             src="../images/Designs-2023.png"
                             alt="A collage of different designs for The NFL Tree's YouTube channel as well as an upcoming scavenger hunt book called Park Pursuit" />
-                        <figcaption>Explore my portfolio showcasing captivating visuals from my YouTube channel <i>The NFL Tree</i> and get a sneak peek of my upcoming Disney Parks scavenger hunt book <i>Park Pursuit</i>.</figcaption>
+                        <figcaption>Explore my portfolio showcasing captivating visuals from my YouTube channel <i>The
+                                NFL Tree</i> and get a sneak peek of my upcoming Disney Parks scavenger hunt book
+                            <i>Park Pursuit</i>.</figcaption>
                     </div>
                 </div>
             </div>
@@ -91,6 +93,11 @@
                                 <li>Meet Brayden, a former football player at Cyprus High School who has a passion for
                                     NFL scouting <a onclick="on('239-4')" class="link">See more</a></li>
                             </ul>
+                            <li>Photography Exercise</li>
+                            <ul>
+                                <li>A sample of various photos around BYU campus <a onclick="show('assignments/photos.html')"
+                                        class="link">See more</a></li>
+                            </ul>
                         </ul>
                     </div>
                 </div>
@@ -113,7 +120,7 @@
                             <ul>
                                 <li>The heart of the debate surrounding abortion is actually tied into the concept of
                                     personal accountability and responsibility. The phrase ‘pro-choice’ has become a
-                                    euphemism for ‘anti-responsibility’ in today’s society. <a onclick="on('p2')"
+                                    euphemism for ‘anti-responsibility’ in today’s society. <a onclick="show('assignments/p2.html')"
                                         class="link">See more</a></li>
                             </ul>
                         </ul>
@@ -124,7 +131,7 @@
                                 <li>Amidst the plethora of evidence that would normally suggest that South Africa enjoys
                                     a highly successful democracy, the country suffers from a large amount of political
                                     corruption that stems from the growing principal-agent problem inside the government
-                                    itself. <a onclick="on('p6')" class="link">See more</a></li>
+                                    itself. <a onclick="show('assignments/p6.html')" class="link">See more</a></li>
                             </ul>
                         </ul>
                         <h4>The Shape of Opinion</h4>
@@ -133,7 +140,7 @@
                             <ul>
                                 <li>February 14, Valentines’ Day, marked the 18th school shooting in just 45 days of
                                     2018. Or, at least, that’s what the media would have you believe. <a
-                                        onclick="on('p1')" class="link">See
+                                        onclick="show('assignments/p1.html')" class="link">See
                                         more</a></li>
                             </ul>
                         </ul>
@@ -145,7 +152,7 @@
                                     With the deadline on the Deferred Action for Childhood Arrivals Act (DACA) growing
                                     closer, the topic of immigration has surfaced as yet another growing rift between
                                     parties. There has been a lot of rhetoric from both sides on the issue of illegal
-                                    immigration, but very little discussion. <a onclick="on('p5')" class="link">See
+                                    immigration, but very little discussion. <a onclick="show('assignments/p5.html')" class="link">See
                                         more</a></li>
                             </ul>
                         </ul>
@@ -156,7 +163,7 @@
                                 <li>
                                     It’s a story far too prevalent in today’s media: people being prohibited from
                                     speaking on college campuses based on the ideas that they share. <a
-                                        onclick="on('p3')" class="link">See
+                                        onclick="show('assignments/p3.html')" class="link">See
                                         more</a></li>
                             </ul>
                         </ul>
@@ -167,7 +174,7 @@
                                 <li>
                                     Like many things in life, it would seem that history is repeating itself. This time,
                                     however, there’s a certain irony to the current state of the #MeToo movement. <a
-                                        onclick="on('p4')" class="link">See
+                                        onclick="show('assignments/p4.html')" class="link">See
                                         more</a></li>
                             </ul>
                         </ul>
@@ -209,7 +216,7 @@
                             <li>December 7, 2022</li>
                             <ul>
                                 <li>The Benefits of Being Together Through Family Leisure on Our Stressful Lives. <a
-                                        onclick="on('t1')" class="link">See
+                                        onclick="show('assignments/t1.html')" class="link">See
                                         more</a></li>
                             </ul>
                         </ul>
@@ -221,6 +228,7 @@
     </section>
 
     <div id="overlay">
+
         <dialog id="239-1">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/hD6WS4CmYUc"
                 title="YouTube video player" frameborder="0"
@@ -244,28 +252,10 @@
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen></iframe>
-        </dialog>
-        <dialog id="p1">
-            <iframe width="780" height="500" src="assignments/p1.html"></iframe>
-        </dialog>
-        <dialog id="p2">
-            <iframe width="780" height="500" src="assignments/p2.html"></iframe>
-        </dialog>
-        <dialog id="p3">
-            <iframe width="780" height="500" src="assignments/p3.html"></iframe>
-        </dialog>
-        <dialog id="p4">
-            <iframe width="780" height="500" src="assignments/p4.html"></iframe>
-        </dialog>
-        <dialog id="p5">
-            <iframe width="780" height="500" src="assignments/p5.html"></iframe>
-        </dialog>
-        <dialog id="p6">
-            <iframe width="780" height="500" src="assignments/p6.html"></iframe>
-        </dialog>
-        <dialog id="t1">
-            <iframe width="780" height="500" src="assignments/t1.html"></iframe>
-        </dialog>
+        </dialog>        
+        
+        <dialog id="staticdlg"></dialog>
+       
     </div>
 
     <footer class="footer text-faded text-center py-5">
